@@ -193,6 +193,7 @@ a {
     width: 100%;
   }
 }
+@impot "../Cardo.css";
 #container {
   min-height: 100%;
 }
@@ -551,7 +552,7 @@ a {
 .header-author {
   text-align: center;
   margin: 13px 0;
-  font-family: Times, Georgia, serif;
+  font-family: "Times New Roman", serif;
   font-size: 29px;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -661,11 +662,10 @@ a {
   -webkit-box-orient: vertical;
 }
 #header .header-menu {
-  font-weight: 550;
+  font-weight: 700;
   line-height: 1.75rem;
-  font-family: inherit;
+  font-family: "Times New Roman", serif;
   cursor: pointer;
-  text-transform: uppercase;
   float: none;
   min-height: 5.25rem;
   max-height: 8.75rem;
@@ -680,7 +680,7 @@ a {
   cursor: default;
 }
 #header .header-menu li a {
-  font-size: 0.875rem;
+  font-size: 1.0625rem;
   min-width: 300px;
 }
 #header .switch-area {
@@ -1077,6 +1077,19 @@ color
 }
 .post-list li:hover a {
   color: #88acdb;
+}
+.ui-tooltip {
+  padding: 6px;
+  max-width: 30em;
+  -webkit-box-shadow: 0 0 0.8em rgba(0,0,0,0.3);
+  box-shadow: 0 0 0.8em rgba(0,0,0,0.3);
+  color: #fff;
+  font-family: "Times New Roman", "Lucida Grande", Verdana, "Helvetica Neue", Arial, "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", serif;
+  font-size: 0.9em;
+  background: rgba(0,0,0,0.35);
+}
+body .ui-tooltip {
+  border: 1px solid #fff;
 }
 .article-entry ul > li,
 .share,

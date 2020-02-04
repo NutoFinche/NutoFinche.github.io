@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Cardo";
+  src: url("../font/Cardo/Cardo.woff2") format("woff2"),
+       url("../font/Cardo/Cardo.woff") format("woff"),
+       url("../font/Cardo/Cardo.ttf") format("truetype"),
+       url("../font/Cardo/Cardo.eot") format("embedded-opentype"),
+       url("../font/Cardo/Cardo.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}

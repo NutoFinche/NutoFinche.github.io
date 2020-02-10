@@ -411,27 +411,22 @@
 
 
     
-        <section id="comments">
-    <style> aside.comment-bar { margin: auto 30px; }</style>
-    <div id="disqus_thread"></div>
+        <section id="comments" style="margin: 2em; padding: 2em; background: rgba(255, 255, 255, 0.5)">
+    <div id="vcomment" class="comment"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src=""></script>
     <script>
-        var disqus_config = function(){
-            this.page.url = 'http://yoursite.com/2020/02/06/%E7%89%B9%E6%B4%9B%E4%BC%8A/';
-            this.page.identifier = '2020/02/06/特洛伊/';
-        };
-        var loadComment = function(){
-            var d = document, s = d.createElement('script');
-            s.src = '//nutofinche.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        }
+      new Valine({
+        el: '#vcomment',
+        notify: 'true',
+        verify: 'true',
+        app_id: "K0fcY8Mxvv16VzIri5nuTTKe-gzGzoHsz",
+        app_key: "nXC6cypVGISQV5D1xaXrxKB9",
+        placeholder: "Just go go!",
+        avatar: "mp"
+      });
     </script>
-    
-    <script> loadComment(); </script>
-
 </section>
-
-
     
 
 

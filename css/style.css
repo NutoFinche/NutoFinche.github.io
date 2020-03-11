@@ -556,7 +556,8 @@ a {
 .header-author {
   text-align: center;
   margin: 13px 0;
-  font-family: "Times New Roman", serif;
+  font-family: "ink free", sans-serif, "Microsoft YaHei";
+  font-weight: bold;
   font-size: 29px;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -668,7 +669,7 @@ a {
 #header .header-menu {
   font-weight: 700;
   line-height: 1.75rem;
-  font-family: "Times New Roman", serif;
+  font-family: "ink free", sans-serif, "Microsoft YaHei";
   cursor: pointer;
   float: none;
   min-height: 5.25rem;
@@ -1331,7 +1332,8 @@ body .ui-tooltip {
 .article-title {
   color: #696969;
   margin-left: 0px;
-  font-weight: 400;
+  font-family: "ink free", "FZYaoTi", "Microsoft YaHei";
+  font-weight: bold;
   line-height: 1.3;
   margin-bottom: 20px;
   -webkit-transition: color 0.3s;
@@ -1352,6 +1354,10 @@ body .ui-tooltip {
   word-break: break-word;
   -webkit-box-shadow: 3px 2px 8px rgba(0,0,0,0.07);
   box-shadow: 3px 2px 8px rgba(0,0,0,0.07);
+  font-family: "ink free", "Heiti SC", "YouYuan", "Microsoft YaHei", "微软雅黑";
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  word-spacing: 4px;
 }
 .article-header {
   border-left: 6px solid #eee;

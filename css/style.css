@@ -1354,7 +1354,7 @@ body .ui-tooltip {
   word-break: break-word;
   -webkit-box-shadow: 3px 2px 8px rgba(0,0,0,0.07);
   box-shadow: 3px 2px 8px rgba(0,0,0,0.07);
-  font-family: "ink free", "Microsoft YaHei", "微软雅黑", "Heiti SC";
+  font-family: "ink free", sans-serif, "Microsoft YaHei";
   -webkit-font-smoothing: antialiased;
   letter-spacing: 1px;
   word-spacing: 4px;
